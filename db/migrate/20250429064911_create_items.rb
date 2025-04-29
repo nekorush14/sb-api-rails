@@ -17,7 +17,7 @@ class CreateItems < ActiveRecord::Migration[8.0]
       t.string :barcode
       t.string :image_url
 
-      t.timestamps                         
+      t.timestamps
     end
 
     add_index :items, :user_id
